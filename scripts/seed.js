@@ -1,4 +1,5 @@
 const { db } = require('@vercel/postgres');
+const bcrypt = require("bcrypt");
 const {
   invoices,
   customers,

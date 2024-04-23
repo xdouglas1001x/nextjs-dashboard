@@ -30,3 +30,13 @@ export default async function Page({ params }: { params: { id: string } }) {
     </main>
   );
 }
+
+/** 
+export async function generateStaticParams() {
+  const servicos = await ServicoService.findAll();
+
+  return servicos.map((servico) => ({
+      servicoSlug: servico.post_name,
+  }))
+}
+*/
